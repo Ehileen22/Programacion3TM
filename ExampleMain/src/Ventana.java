@@ -8,17 +8,16 @@ public class Ventana extends JFrame {
 	
 	public Ventana()
 	{
-		JFrame ventana=new JFrame();
-		ventana.setVisible(true);
-		ventana.setSize(300, 300);
-		ventana.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
-		ventana.setTitle("Mi ventana");
-		ventana.setMinimumSize(new Dimension(250,250));
-		ventana.setMaximumSize(new Dimension(750,750));
-		ventana.setResizable(true);
-		ventana.setLocation(200, 200);
-		ventana.setLocationRelativeTo(null);
 		
+		this.setVisible(true);
+		this.setSize(300, 300);
+		this.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
+		this.setTitle("Mi ventana");
+		this.setMinimumSize(new Dimension(250,250));
+		this.setMaximumSize(new Dimension(750,750));
+		this.setResizable(true);
+		this.setLocation(200, 200);
+		this.setLocationRelativeTo(null);
 		this.iniciarComponentes();
 		
 	}
